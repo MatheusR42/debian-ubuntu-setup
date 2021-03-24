@@ -73,8 +73,8 @@ sh -c "$(curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.37.2/install.s
 
 source ~/.bashrc
 nvm --version
-nvm install 14
-nvm alias default 14
+nvm install --lts
+nvm use --lts
 node --version
 npm --version
 
